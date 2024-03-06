@@ -1,7 +1,7 @@
 # Hi there, I'm Priyadarshan Narayanasamy! 👋
 
 
-📧 [Email](mailto:nspd@umd.edu) | 📱 [Phone](tel:+12408542083) | 💼 [LinkedIn](https://www.linkedin.com/in/nspd)
+📧 [Email](mailto:nspd@umd.edu) | 💼 [LinkedIn](https://www.linkedin.com/in/nspd)
 
 ## About Me
 
