@@ -56,7 +56,7 @@ I am a passionate and innovative individual pursuing a Bachelor of Science in Co
 - Combines a user-friendly React frontend with a Flask backend and MongoDB database to support features like searchable location filters and image uploads for verifying accessibility information.
 - Future improvements include refining search algorithms and enhancing the user interface to balance detailed information with ease of use.
 - [View on Devpost](https://devpost.com/software/accessible-mapper)
--   
+   
 ### Amber: Color the World With Sound
 - A novel vision assistance technology that translates visual field information into sound through timbres in a stereo audio stream, aimed at providing visually impaired individuals with a form of partial vision.
 - Converts depth and light information from a stereo video stream into harmonic timbres, allowing users to perceive visual features through audio cues.
@@ -103,7 +103,7 @@ I am a passionate and innovative individual pursuing a Bachelor of Science in Co
 ### University of Maryland, College Park
 - Expected Graduation: May 2027
 - Bachelor of Science in Computer Science and Neuroscience
-- GPA: 3.943/4.000, Dean’s List Awardee
+- GPA: 3.971/4.000, Dean’s List Awardee
 
 ## Leadership Role
 
