@@ -1,79 +1,90 @@
-# Hi there, I'm Priyadarshan Narayanasamy! 👋
+# Hi there, I'm Priyadarshan Narayanasamy! 
 
 
-📧 [Email](mailto:nspd@umd.edu) | 💼 [LinkedIn](https://www.linkedin.com/in/nspd)
+[Email](mailto:nspd@umd.edu) | [LinkedIn](https://www.linkedin.com/in/nspd) | [Devpost](https://devpost.com/nspriyadarshan)
 
 ## About Me
 
-I am a passionate and innovative individual pursuing a Bachelor of Science in Computer Science and Neuroscience at the University of Maryland, College Park. With a strong technical foundation in Java, Python, and a range of technologies, I thrive on creating impactful projects that blend technology with real-world problem-solving.
+I am a passionate and innovative individual pursuing a Bachelor of Science in Computer Science and Neuroscience at the University of Maryland, College Park. With a strong technical foundation, I thrive on creating impactful projects that blend technology with real-world problem-solving.
 
 ## Skills
 
-- **Technical:** Java, Python, PyTorch, Mediapipe, Matplotlib, SQL, Pandas, HTML, CSS, JavaScript, React, Flask, OCR, Arduino, Raspberry Pi, Infrared, Ultrasonics
-- **Additional:** Mentoring, Leadership, Training, Educational Workshops
+- **Technical:** Python, Java, JavaScript, React, React Native, Flask, SQL, PostgreSQL, MongoDB, Arduino, IoT, OpenCV, MediaPipe, PyTorch, Pandas, Matplotlib, Google Cloud Platform, Git, LaTeX, Deep Learning, Machine Learning, NLP, RAG,  OCR, RAG2SQL, TXT2SQL, openCV, Gen AI, CNN Design, API and Cloud Development, Database Management, Web Development, and Agile Methodologies
+- **Additional:** Mentoring, Leadership, Training and Educational Workshops
 - **Lingual:** English (Professional), Tamil (Professional), Hindi (Professional), Sanskrit (Elementary)
 
 ## Projects
 
+### MediCompile (Elevance Healthcare Track Winner, Hacklytics @Georgia Tech)
+- Streamlines the management and analysis of medical documents across various languages and formats, compiling data into a single SQL database.
+- Automatically extracts pertinent information from diverse medical documents (e.g., electronic health records, handwritten notes, prescriptions), translates foreign language documents into English, and extracts crucial details within seconds.
+- Features a natural language to SQL query converter, allowing doctors to filter patient information easily, and includes a summary generator and disease prediction feature based on medical records and symptoms.
+- Built with an intuitive portal for efficient data analysis, providing functionality to issue notifications to doctors as needed.
+- Challenges included developing a backend API to balance comprehensive data inclusion with efficient performance, requiring extensive team collaboration and problem-solving.
+- [View on Devfolio](https://devfolio.co/projects/medicompile-32c2)
+
+### CtrlF-my-audio (Best Forensics Related Hack, Hoya-Hacks @Georgetown)
+- AI-powered web application designed to detect and analyze specific sounds in videos, such as gunshots or car crashes, to aid professionals like law enforcement officers in locating critical events quickly.
+- Utilizes a custom ML model trained on various sound datasets (e.g., gunshots, car crashes) and integrates MongoDB for storing and managing audio logs. The frontend allows users to upload video files and view detected events.
+- Built with Python, PyTorch for ML model training, Flask for the backend, and MongoDB for data management. The frontend is developed using HTML, CSS, and Node.js.
+- Future plans include enhancing the model with larger datasets and more layers, improving frontend features like event highlighting, and integrating with emergency systems for real-time alerts.
+- [View on Devpost](https://devpost.com/software/ctrl-f-my-audio)
+
+### Feasco (Best Finance Hack by Capital One, HackPrinceton @Princeton 2024)
+- AI-driven platform designed to assist users in identifying overcharges on medical bills and filing complaints against unfair billing practices.
+- Utilizes Google's Cloud Vision API for OCR to extract bill data, compares charges against national averages using the Hospital Price Transparency database, and integrates a Talkbot for real-time assistance and educational resources.
+- Future plans include enhancing personalized guidance with machine learning, expanding support for insurance claims, and collaborating with healthcare organizations for greater transparency.
+- [View on Devpost](https://devpost.com/software/faircharge)
+
+### JarWiz (Spark of Genius Award, HackCEWIT @Stony Brook)
+- Innovative gesture and action recognition software that transforms how users interact with computers, offering intuitive control through hand gestures and voice commands.
+- Utilizes OpenCV and Mediapipe for real-time hand gesture mapping, enabling users to navigate interfaces and control applications without traditional input devices. Integrates Whisper for speech-to-text capabilities, enhancing user 
+  interaction with voice commands.
+- Includes a hardware control interface for manipulating the Claw and features an air guitar functionality for an interactive experience.
+- Built with Python, OpenCV (cv2), Mediapipe, Whisper, PyTorch, and integrates with Arduino and various libraries for gesture recognition and audio processing.
+- Future enhancements include improving gesture precision, adding more gestures, integrating eye tracking, enhancing real-time audio recognition, and implementing user detection for better privacy.
+- [View on Devpost](https://devpost.com/software/jarwiz)
+
+### ResQVision (Best use of AI/ML Innovation, Bitcamp @UMD 2024)
+- AI-powered disaster response tool designed to enhance search and rescue operations, debris detection, and structural analysis.
+- Uses YOLO object detection to locate survivors and assess debris from aerial video footage, providing critical data for effective rescue operations. It also performs structural analysis to identify and describe weaknesses, offering detailed insights into potential vulnerabilities and issues that may impact rebuilding efforts.
+- Future developments include training a custom debris detection model and integrating sensors for real-time monitoring of structural damage.
+- [View on Devpost](https://devpost.com/software/resqvision)
+
+### Accessible Mapper (Second Place Overall, Katy Youth Hacks 2024)
+- A platform designed to enhance accessibility by allowing users to find and share detailed information about the accessibility features of various locations.
+- Combines a user-friendly React frontend with a Flask backend and MongoDB database to support features like searchable location filters and image uploads for verifying accessibility information.
+- Future improvements include refining search algorithms and enhancing the user interface to balance detailed information with ease of use.
+- [View on Devpost](https://devpost.com/software/accessible-mapper)
+-   
 ### Amber: Color the World With Sound
-- Aiming to grant visually impaired users partial vision through sound by translating visual information into an auditory format.
-- Core innovation: Converts depth arrays from a stereographic video stream into harmonics, providing a unique auditory representation of visual data.
+- A novel vision assistance technology that translates visual field information into sound through timbres in a stereo audio stream, aimed at providing visually impaired individuals with a form of partial vision.
+- Converts depth and light information from a stereo video stream into harmonic timbres, allowing users to perceive visual features through audio cues.
+- Utilizes OpenCV for depth calculation, Pyo for sound synthesis, Python for core processing, and Pydub for audio manipulation.
+- Future research will focus on user ability to interpret harmonic timbres, effectiveness of the technology for visually impaired users, and potential practical applications.
+- [View on Devpost](https://devpost.com/software/amber-color-the-world-with-sound)
 
-### InstantResume
-- Web application for generating resumes within 2 minutes using React, Flask, GPT-3.5, and Latex.
-- Advanced NLP pipeline processes user input into a professional resume, enhancing accessibility.
-- Currently working on hosting infrastructure for improved user experience.
+### ASAP Resume
+- Web application designed to generate professional resumes in minutes using GPT-3.5, React, Flask, and LaTeX.
+- Provides an intuitive interface for users to input their details, while the AI-driven backend processes and formats resumes into polished documents.
+- Built with a tech stack combining React for the frontend, Flask for the backend API, GPT-3.5 for natural language processing, and LaTeX for formatting.
+- Future plans include enhancing the user interface, exploring additional AI features for content personalization, expanding resume templates, and optimizing hosting infrastructure for scalability.
+- Built With: Flask, GPT-3.5, React, LaTeX
+- [View on Devpost](https://devpost.com/software/asap-resume)
 
-### Ctrlf My Video
-- Implements a specialized Convolutional Neural Network (CNN) for efficient identification of specific audio types within surveillance footage.
-- Combines PyTorch and React for cohesive integration of advanced machine learning techniques and an intuitive user experience.
-- Aims to enhance law enforcement efficiency through advanced machine learning for prompt and effective responses to potential security threats.
+### NutriVision
+- Simplifies calorie tracking and meal prep by allowing users to snap pictures of their food, with intelligent technology analyzing images to provide nutritional information and creative recipe suggestions.
+- Uses object detection to identify food items, integrates with a nutrition API for detailed breakdowns, and stores data in MongoDB for efficient retrieval and analysis.
+- Future enhancements include personalized recommendations based on gut health and user goals, along with running models locally for faster response times.
+- [View on Devpost](https://devpost.com/software/nutrivision-a1myh8)
 
-### MediCompile
-- Web application for extracting, translating, and parsing text data from medical documents.
-- Doctor portal for analyzing patient data, natural language to SQL query conversion for intuitive searches.
-- Winner of the Georgia Tech Hacklytics Elevance Healthcare Challenge 1st Prize.
-
-
-
-### JarWiz
-- Revolutionizing computer accessibility with gesture and action recognition software.
-- Enables users to interact with computers naturally and seamlessly, liberating them from traditional keyboard and mouse inputs.
-- Integrates OpenCV for hand gesture recognition and Whisper for speech-to-text, providing a versatile and intuitive interface.
-
-## Education
-
-### University of Maryland, College Park
-- Expected Graduation: May 2027
-- Bachelor of Science in Computer Science and Neuroscience
-- GPA: 3.943/4.000, Dean’s List Awardee
-
-### D.A.V. Public School, Bistupur, India
-- Aug 2019 - Mar 2023
-- AISSC: 96.4% (3rd/450+)
-- AISSCE: 95.8% (4th/450+)
-
-## Experience
-
-### Fundraising Volunteer, Adhyayan Quality Education Foundation
-- Aug 2022 - Oct 2022
-- Orchestrated a successful fundraising campaign, securing 53k INR for underprivileged children’s education.
-- Implemented strategic outreach plans, engaging donors and community members effectively.
-
-### Extracurricular Mentor, Atal Tinkering Lab
-- Apr 2022 - Mar 2023
-- Guided over 70 students in Electronics and Robotics, encouraging hands-on learning with Raspberry Pis and Arduinos.
-- Empowered aspiring engineers through diverse project guidance, fostering innovation and practical skill development.
-
-## Leadership Role
-
-### President, Antagyah - The Science Club
-- Apr 2021 - Mar 2023
-- Revived the club post-Covid, organizing impactful workshops and fostering innovation.
-- Led a team to victory in the national creativity Olympiad, showcasing dedication to excellence.
+### We'llChat
+- A web app designed to support student wellness by connecting users with professionals and peers based on their mental and physical health needs through an interactive chatbot.
+- Features a chatbot that collects user information to suggest appropriate professionals and supportive peers, integrating both professional and community support.
+- Built with a frontend using HTML, CSS, React JS, and Vite, and a backend utilizing RAG and a vectorDB to match users with relevant contacts.
+- [View on Devpost](https://devpost.com/software/wellchat)
 
 ## Achievements
-
 - 2nd Place Award for Science Quiz by Indian Space Research Organization
 - Distinction Certificate for Outstanding Performance in the National Space Quiz 
 - Certificate of Excellence for Top 100 out of 12000+ in Young Tycoon’s Business Challenge
@@ -83,5 +94,24 @@ I am a passionate and innovative individual pursuing a Bachelor of Science in Co
 - Best Forensics Related Hack for ”Ctrlf My Audio” at HoyaHacks 2024 out of 400+ participants 
 - Elevance Healthcare Track Winner at Hacklytics 2024 out of 1100+ participants 
 - Spark of Genius Award Winner at HackCEWIT 2024
+- Best Finance Hack at HackPrinceton 2024
+- Best use of AI/ML Innovation at Bitcamp 2024
+- Second Place Overall at Katy Youth Hacks 2024
+
+## Education
+
+### University of Maryland, College Park
+- Expected Graduation: May 2027
+- Bachelor of Science in Computer Science and Neuroscience
+- GPA: 3.943/4.000, Dean’s List Awardee
+
+## Leadership Role
+
+### Vice President - AI/ML CLub @UMD
+- Apr 2021 - Mar 2023
+- Co-founded the club, promoting AI and ML literacy among students.
+- Currently Initiating collaborative projects with industry partners to apply AI/ML solutions to real-world problems.
+
+
 
 Feel free to reach out for collaboration, mentorship, or exciting projects! 
