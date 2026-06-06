@@ -9,7 +9,7 @@ CS + Neuroscience (double degree) and Computational Finance at the University of
 
 ## About
 
-I care about building technology that actually changes outcomes for people, not demos that die after the pitch. The work I'm proudest of sits where real problems meet hard engineering: helping visually impaired people sense their surroundings, reading focus straight off brain signals, cutting medical errors out of healthcare data. That mix of neuroscience and machine learning is what I keep coming back to, and I want to spend my career turning that kind of research into things people can hold and use.
+I care about building technology that actually changes outcomes for people, not just Agentic Slop. The work I'm proudest of sits where real problems meet hard engineering: helping visually impaired people sense their surroundings, reading focus straight off brain signals, cutting medical errors out of healthcare data. That mix of neuroscience and machine learning is what I keep coming back to, and I want to spend my career turning that kind of research into things people can hold and use.
 
 I work across ML research and production engineering. On the research side that means spatially-aware LLMs, EEG-based neural interfaces, and AI text detection. On the product side it means document-processing and agent pipelines that run at scale. GPA 3.982/4.000, Michael Antonov Scholar, Dean's List every semester.
 
