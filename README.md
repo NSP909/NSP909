@@ -19,19 +19,33 @@ I've won 20 of 24 hackathons over two years, which put me on [MLH's 2025 Top 50]
 
 **Beyond Perplexity: Character Distribution Signatures and the MDTA Benchmark for AI Text Detection** ([arXiv:2605.01647](https://arxiv.org/abs/2605.01647)), accepted at the ICML 2026 Hypothesis Testing Workshop. A way to detect AI-generated text from character distribution patterns instead of model probabilities, with a Letter Distribution Score and the 642,000-sample MDTA benchmark. Layered on existing detectors it lifts AUROC and F1, especially in narrow domains where vocabulary is more constrained.
 
-**SING: Spatial Context in Large Language Models for Next-Gen Wearables**, accepted at ICML 2025. A CNN spatial encoder and intermodal projection layer that cut median Direction-of-Arrival error from 88.5 degrees to 13.0 degrees using a single microphone, plus a LoRA-tuned Llama 3.2 3B reaching 25.7-degree mean DoA error for spatially-aware ASR with up to 5 simultaneous speakers.
+**SING: Spatial Context in Large Language Models for Next-Gen Wearables** ([arXiv:2504.08907](https://arxiv.org/abs/2504.08907)), accepted at ICML 2025. A CNN spatial encoder and intermodal projection layer that cut median Direction-of-Arrival error from 88.5 degrees to 13.0 degrees using a single microphone, plus a LoRA-tuned Llama 3.2 3B reaching 25.7-degree mean DoA error for spatially-aware ASR with up to 5 simultaneous speakers.
 
 ## Experience
 
-| Role | Where | When |
-| --- | --- | --- |
-| Software Engineering Intern | Google | May 2026 to Present |
-| Full-Stack ML Engineering Intern | Gencise AI | Dec 2024 to Present |
-| Research Assistant | iCosMos Lab, UMD | Aug 2024 to Present |
-| Machine Learning Research Intern | Kaliber Labs | May 2024 to Dec 2024 |
-| Co-Founder and Vice President | AI/ML Club at UMD | Mar 2024 to Present |
+**Software Engineering Intern, Google** (May 2026 to Present)
 
-At UMD's AI/ML Club I co-founded the org and grew it from 8 members to 600+.
+**Full-Stack ML Engineering Intern, Gencise AI** (Dec 2024 to Present)
+- Built a document parsing pipeline pairing a fine-tuned Google Document AI (trained on 400+ synthetically generated forms) with Gemini and HTML template-based data augmentation, raising F1 from 0.75 to 0.91 across 20,000+ documents in production.
+- Engineered an async Microsoft Graph API email processor with batch optimization and document caching that cut processing from 15 minutes to 2 minutes per application while handling 1,000+ daily emails, storing files in AWS S3 via boto3 with metadata in PostgreSQL.
+- Architected 7 microservices across 4 verticals on LangGraph workflows, exposed through Flask blueprint REST APIs (15 endpoints) backed by SQLAlchemy, handling entity extraction, validation, conflict resolution, and database population with source-backtracking and 35 automated tests; shipped on Docker/Kubernetes with GitHub Actions CI/CD.
+- Built a FastAPI premium quote generator computing exposure-based premiums across coverage types, enriched with custom web scrapers and the Google Places, Yelp, and TripAdvisor APIs.
+
+**Machine Learning Research Intern, Kaliber Labs** (May 2024 to Dec 2024)
+- Led a cross-functional team building a data querying pipeline on a modified RAG2SQL architecture with semantic agents, reaching 94% accuracy across 2,000+ test queries.
+- Deployed LLaVA for surgical monitoring by fine-tuning Llama 3.2 3B and training a custom image-to-text projection layer on 48,000 manually labeled frames from 200 surgical videos.
+- Engineered custom vector databases indexing 120,000+ embeddings across 40,000 pages, tuning chunking and retrieval latency for training and inference.
+- Designed APIs for remote ML model serving across multiple production integrations.
+
+**Research Assistant, iCosMos Lab at UMD** (Aug 2024 to Present)
+- Co-authored SING (see Publications), building the CNN spatial encoder and intermodal projection layer and LoRA-tuning Llama 3.2 3B for spatially-aware ASR.
+- Developing an LLM-generated text detector from letter distribution signals, reaching 0.99 AUROC on a custom 350,000+ sample benchmark across models, domains, and temperatures.
+- Developing an SNN that uses bi-hemispherical attention to map EEG signal patterns to spatial audio locations for neural sound localization.
+
+**Co-Founder and Vice President, AI/ML Club at UMD** (Mar 2024 to Present)
+- Co-founded the club and grew it from 8 to 600+ members across disciplines in two semesters.
+- Led a 4-person research project on oryx movement patterns using DBSCAN clustering, Shapley filtering, and PCA to relate movement groups to time and season.
+- Ran workshops on RAG, fine-tuning, transformers, and more.
 
 ## Selected Projects
 
