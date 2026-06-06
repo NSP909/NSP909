@@ -115,8 +115,12 @@ Full list including HireFlow, Vector Mentor, AnchorVision, OpenSwarm, and Pitche
 ## Stats
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=NSP909&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NSP909&layout=compact&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/NSP909"><img src="https://img.shields.io/github/followers/NSP909?style=for-the-badge&logo=github&color=1f6feb&labelColor=0d1117" alt="GitHub followers" /></a>
+  <img src="https://komarev.com/ghpvc/?username=NSP909&style=for-the-badge&color=1f6feb&label=Profile+Views" alt="Profile views" />
+</p>
+
+<p align="center">
+  <img height="170" src="https://streak-stats.demolab.com/?user=NSP909&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 </p>
 
 Open to research collaborations and good teams. Reach me at nspd@terpmail.umd.edu or [nsp.sh](https://nsp.sh).
