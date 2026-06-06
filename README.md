@@ -1,117 +1,120 @@
-# Hi there, I'm Priyadarshan Narayanasamy! 
+# Hi, I'm Priyadarshan Narayanasamy 👋
 
+**CS + Neuroscience (Double Degree) & Computational Finance @ University of Maryland**
+ML Engineer & Researcher · 🏆 20x Hackathon Winner · 🥇 MLH Top 50 (2025) · 📄 ICML 2025
 
-[Email](mailto:nspd@umd.edu) | [LinkedIn](https://www.linkedin.com/in/nspd) | [Devpost](https://devpost.com/nspriyadarshan)
+[![Website](https://img.shields.io/badge/Website-nsp.sh-1f6feb?style=flat-square&logo=google-chrome&logoColor=white)](https://nsp.sh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-in/nspd-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nspd)
+[![Devpost](https://img.shields.io/badge/Devpost-nspriyadarshan-003e54?style=flat-square&logo=devpost&logoColor=white)](https://devpost.com/nspriyadarshan)
+[![Email](https://img.shields.io/badge/Email-nspd@terpmail.umd.edu-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:nspd@terpmail.umd.edu)
 
-## About Me
+---
 
-I am a passionate and innovative individual pursuing a Bachelor of Science in Computer Science and Neuroscience at the University of Maryland, College Park. With a strong technical foundation, I thrive on creating impactful projects that blend technology with real-world problem-solving.
+## 🧠 About Me
 
-## Skills
+I'm a CS + Neuroscience double-degree student at the University of Maryland (GPA 3.982/4.000, Michael Antonov Scholar, Dean's List every semester). I build at the intersection of **machine learning, applied research, and full-stack engineering** — from spatially-aware LLMs and EEG-based neural interfaces to production document-processing pipelines.
 
-- **Technical:** Python, Java, JavaScript, React, React Native, Flask, SQL, PostgreSQL, MongoDB, Arduino, IoT, OpenCV, MediaPipe, PyTorch, Pandas, Matplotlib, Google Cloud Platform, Git, LaTeX, Deep Learning, Machine Learning, NLP, RAG,  OCR, RAG2SQL, TXT2SQL, openCV, Gen AI, CNN Design, API and Cloud Development, Database Management, Web Development, and Agile Methodologies
-- **Additional:** Mentoring, Leadership, Training and Educational Workshops
-- **Lingual:** English (Professional), Tamil (Professional), Hindi (Professional), Sanskrit (Elementary)
+I've won **19 of 22 hackathons** I've entered over two years, which earned me a spot on **[MLH's 2025 Top 50](https://www.cs.umd.edu/article/2025/10/umd-student-recognized-mlh-top-50-list)** (selected from a global community of 500,000+ developers).
 
-## Projects
+- 🔬 Research Assistant @ **iCosMos Lab** — co-author on **SING**, *accepted at ICML 2025*
+- 💼 Full-Stack ML Engineer @ **Gencise AI** · ex-ML Researcher @ **Kaliber Labs** · incoming SWE @ **Google**
+- 🤝 Co-Founder & VP, **AI/ML Club @ UMD** — grew from 8 to 600+ members
 
-### MediCompile (Elevance Healthcare Track Winner, Hacklytics @Georgia Tech)
-- Streamlines the management and analysis of medical documents across various languages and formats, compiling data into a single SQL database.
-- Automatically extracts pertinent information from diverse medical documents (e.g., electronic health records, handwritten notes, prescriptions), translates foreign language documents into English, and extracts crucial details within seconds.
-- Features a natural language to SQL query converter, allowing doctors to filter patient information easily, and includes a summary generator and disease prediction feature based on medical records and symptoms.
-- Built with an intuitive portal for efficient data analysis, providing functionality to issue notifications to doctors as needed.
-- Challenges included developing a backend API to balance comprehensive data inclusion with efficient performance, requiring extensive team collaboration and problem-solving.
-- [View on Devfolio](https://devfolio.co/projects/medicompile-32c2)
+---
 
-### CtrlF-my-audio (Best Forensics Related Hack, Hoya-Hacks @Georgetown)
-- AI-powered web application designed to detect and analyze specific sounds in videos, such as gunshots or car crashes, to aid professionals like law enforcement officers in locating critical events quickly.
-- Utilizes a custom ML model trained on various sound datasets (e.g., gunshots, car crashes) and integrates MongoDB for storing and managing audio logs. The frontend allows users to upload video files and view detected events.
-- Built with Python, PyTorch for ML model training, Flask for the backend, and MongoDB for data management. The frontend is developed using HTML, CSS, and Node.js.
-- Future plans include enhancing the model with larger datasets and more layers, improving frontend features like event highlighting, and integrating with emergency systems for real-time alerts.
-- [View on Devpost](https://devpost.com/software/ctrl-f-my-audio)
+## 📄 Publications
 
-### Feasco (Best Finance Hack by Capital One, HackPrinceton @Princeton 2024)
-- AI-driven platform designed to assist users in identifying overcharges on medical bills and filing complaints against unfair billing practices.
-- Utilizes Google's Cloud Vision API for OCR to extract bill data, compares charges against national averages using the Hospital Price Transparency database, and integrates a Talkbot for real-time assistance and educational resources.
-- Future plans include enhancing personalized guidance with machine learning, expanding support for insurance claims, and collaborating with healthcare organizations for greater transparency.
-- [View on Devpost](https://devpost.com/software/faircharge)
+- **SING: Spatial Context in Large Language Models for Next-Gen Wearables** — *Accepted at ICML 2025*
+  CNN-based spatial encoder + intermodal projection layer reducing median Direction-of-Arrival error from 88.5° to 13.0° using monaural microphone sensing.
 
-### JarWiz (Spark of Genius Award, HackCEWIT @Stony Brook)
-- Innovative gesture and action recognition software that transforms how users interact with computers, offering intuitive control through hand gestures and voice commands.
-- Utilizes OpenCV and Mediapipe for real-time hand gesture mapping, enabling users to navigate interfaces and control applications without traditional input devices. Integrates Whisper for speech-to-text capabilities, enhancing user 
-  interaction with voice commands.
-- Includes a hardware control interface for manipulating the Claw and features an air guitar functionality for an interactive experience.
-- Built with Python, OpenCV (cv2), Mediapipe, Whisper, PyTorch, and integrates with Arduino and various libraries for gesture recognition and audio processing.
-- Future enhancements include improving gesture precision, adding more gestures, integrating eye tracking, enhancing real-time audio recognition, and implementing user detection for better privacy.
-- [View on Devpost](https://devpost.com/software/jarwiz)
+---
 
-### ResQVision (Best use of AI/ML Innovation, Bitcamp @UMD 2024)
-- AI-powered disaster response tool designed to enhance search and rescue operations, debris detection, and structural analysis.
-- Uses YOLO object detection to locate survivors and assess debris from aerial video footage, providing critical data for effective rescue operations. It also performs structural analysis to identify and describe weaknesses, offering detailed insights into potential vulnerabilities and issues that may impact rebuilding efforts.
-- Future developments include training a custom debris detection model and integrating sensors for real-time monitoring of structural damage.
-- [View on Devpost](https://devpost.com/software/resqvision)
+## 💼 Experience
 
-### Accessible Mapper (Second Place Overall, Katy Youth Hacks 2024)
-- A platform designed to enhance accessibility by allowing users to find and share detailed information about the accessibility features of various locations.
-- Combines a user-friendly React frontend with a Flask backend and MongoDB database to support features like searchable location filters and image uploads for verifying accessibility information.
-- Future improvements include refining search algorithms and enhancing the user interface to balance detailed information with ease of use.
-- [View on Devpost](https://devpost.com/software/accessible-mapper)
-   
-### Amber: Color the World With Sound
-- A novel vision assistance technology that translates visual field information into sound through timbres in a stereo audio stream, aimed at providing visually impaired individuals with a form of partial vision.
-- Converts depth and light information from a stereo video stream into harmonic timbres, allowing users to perceive visual features through audio cues.
-- Utilizes OpenCV for depth calculation, Pyo for sound synthesis, Python for core processing, and Pydub for audio manipulation.
-- Future research will focus on user ability to interpret harmonic timbres, effectiveness of the technology for visually impaired users, and potential practical applications.
-- [View on Devpost](https://devpost.com/software/amber-color-the-world-with-sound)
+| Role | Organization | When |
+| --- | --- | --- |
+| Software Engineering Intern | **Google** | May 2026 – Present |
+| Full-Stack ML Engineering Intern | **Gencise AI** | Dec 2024 – Present |
+| Research Assistant | **iCosMos Lab, UMD** | Aug 2024 – Present |
+| Machine Learning Research Intern | **Kaliber Labs** | May 2024 – Dec 2024 |
+| Co-Founder & Vice President | **AI/ML Club @ UMD** | Mar 2024 – Present |
 
-### ASAP Resume
-- Web application designed to generate professional resumes in minutes using GPT-3.5, React, Flask, and LaTeX.
-- Provides an intuitive interface for users to input their details, while the AI-driven backend processes and formats resumes into polished documents.
-- Built with a tech stack combining React for the frontend, Flask for the backend API, GPT-3.5 for natural language processing, and LaTeX for formatting.
-- Future plans include enhancing the user interface, exploring additional AI features for content personalization, expanding resume templates, and optimizing hosting infrastructure for scalability.
-- Built With: Flask, GPT-3.5, React, LaTeX
-- [View on Devpost](https://devpost.com/software/asap-resume)
+---
 
-### NutriVision
-- Simplifies calorie tracking and meal prep by allowing users to snap pictures of their food, with intelligent technology analyzing images to provide nutritional information and creative recipe suggestions.
-- Uses object detection to identify food items, integrates with a nutrition API for detailed breakdowns, and stores data in MongoDB for efficient retrieval and analysis.
-- Future enhancements include personalized recommendations based on gut health and user goals, along with running models locally for faster response times.
-- [View on Devpost](https://devpost.com/software/nutrivision-a1myh8)
+## 🚀 Featured Projects
 
-### We'llChat
-- A web app designed to support student wellness by connecting users with professionals and peers based on their mental and physical health needs through an interactive chatbot.
-- Features a chatbot that collects user information to suggest appropriate professionals and supportive peers, integrating both professional and community support.
-- Built with a frontend using HTML, CSS, React JS, and Vite, and a backend utilizing RAG and a vectorDB to match users with relevant contacts.
-- [View on Devpost](https://devpost.com/software/wellchat)
+### 🥇 [FocusFlow](https://devpost.com/software/focus-flow-y63tzm) — *Winner, HackUMBC 2025*
+Real-time EEG attention classifier using a bidirectional LSTM with cross-hemispherical attention (87% accuracy across 5 attention states). Async WebSocket pipeline processing 1,280 EEG samples/sec at sub-100ms latency, with a live Next.js analytics dashboard.
 
-## Achievements
-- 2nd Place Award for Science Quiz by Indian Space Research Organization
-- Distinction Certificate for Outstanding Performance in the National Space Quiz 
-- Certificate of Excellence for Top 100 out of 12000+ in Young Tycoon’s Business Challenge
-- District Science Exhibition Winner for ”Primal Fitness Tracker” Sep 2022
-- Most Entertaining Project Award for ”Never Gonna Let You Sleep” in a national hackathon 
-- AP Scholar with Distinction 
-- Best Forensics Related Hack for ”Ctrlf My Audio” at HoyaHacks 2024 out of 400+ participants 
-- Elevance Healthcare Track Winner at Hacklytics 2024 out of 1100+ participants 
-- Spark of Genius Award Winner at HackCEWIT 2024
-- Best Finance Hack at HackPrinceton 2024
-- Best use of AI/ML Innovation at Bitcamp 2024
-- Second Place Overall at Katy Youth Hacks 2024
+### 🥉 [TaxDaddy](https://devpost.com/software/taxdaddy) — *3rd Overall, Hacklytics 2025 @ Georgia Tech*
+Real-time voice tax agent (Twilio + WebSockets) orchestrating 5 specialized agents through a multi-agentic graph for live RAG and tool calling. OCR-based form processing into MongoDB in <7s, plus Benford's-Law fraud/anomaly detection.
 
-## Education
+### 🥇 [SixthSense](https://devpost.com/software/sixthsense-xuw41r) — *Winner*
+Transforming vision into touch — an accessibility-focused sensory substitution system.
 
-### University of Maryland, College Park
-- Expected Graduation: May 2027
-- Bachelor of Science in Computer Science and Neuroscience
-- GPA: 3.971/4.000, Dean’s List Awardee
+### 🥇 [SolSpeak](https://devpost.com/software/n-kp7oqy) — *Solana / Blockchain Track Winner, HackNYU 2025*
+Speak and move the markets — voice-driven blockchain trading on Solana.
 
-## Leadership Role
+### 🥈 Pulsify — *Honorable Mention, BioHack 2024*
+Healthcare query pipeline routing natural language through 3 parallel channels (records, trials, imaging) with NLP-to-SQL (87% accuracy, <3s) and multimodal RAG over a custom Llama 3.2 3B + LLaVA projection layer.
 
-### Vice President - AI/ML CLub @UMD
-- Apr 2021 - Mar 2023
-- Co-founded the club, promoting AI and ML literacy among students.
-- Currently Initiating collaborative projects with industry partners to apply AI/ML solutions to real-world problems.
+### 🥇 L-LMS — *Fetch.ai "Beyond Boundaries" Track Winner, HackMIT 2024*
+Multi-agent academic support system (LangGraph) with a 15,000+ embedding vector DB, Redis caching (<2s responses), and a hybrid Llama 3.1 + GPT-4o architecture integrated with the Canvas API.
 
+> More on my [Devpost →](https://devpost.com/nspriyadarshan) — including HireFlow, Vector Mentor, AnchorVision, OpenSwarm, Pitcher, and others.
 
+---
 
-Feel free to reach out for collaboration, mentorship, or exciting projects! 
+## 🛠️ Tech Stack
+
+**Languages:** Python · Java · JavaScript · C · SQL
+**ML / AI:** PyTorch · TensorFlow · HuggingFace · Transformers · CNNs · LSTMs · SNNs · LoRA Fine-tuning · LangChain · LangGraph · RAG · RAG2SQL · Vector DBs · OpenAI · Claude · Gemini · OCR · OpenCV · Signal Processing
+**Web / Backend:** React · Next.js · Flask · FastAPI · WebSockets · Twilio · REST APIs · Async
+**Data:** PostgreSQL · MongoDB · SQLAlchemy · NumPy · SciPy · Pandas · Matplotlib
+**Cloud / DevOps:** AWS (S3, EC2, Lambda) · Google Cloud (Document AI, Vertex AI, BigQuery, Places API) · Azure · Docker · Kubernetes · GitHub Actions CI/CD · Git
+
+---
+
+## 🏆 Achievements
+
+**2025**
+- 🥇 MLH **Top 50** — selected from 500,000+ developers worldwide
+- 🥇 First Place Overall — **HackUMBC 2025**
+- 🥇 First Place Overall — **HackPrinceton Spring 2025**
+- 🥉 Third Place Overall — **Hacklytics 2025** @ Georgia Tech
+- 🥇 Solana & Blockchain Track Winner — **HackNYU 2025**
+- 🥇 Best Use of Terraform / Cloud — **HoyaHacks 2025** @ Georgetown
+- 🎓 Judge & Mentor, ML Track (400+ participants) — **Bitcamp @ UMD**
+
+**2024**
+- 🥈 Second Place Overall (Demo Day) — **Harvard Hacker House**
+- 🥈 Second Place Overall — **HackPrinceton Fall 2024**
+- 🥇 Warm-Up Challenge Winner — **MIT Energy & Climate Hackathon**
+- 🏅 Honorable Mention — **BioHack 2024** (Nucleate PGH)
+- 🥉 Third Place Overall (Demo Day) — **Harvard Hacker House**
+- 🥇 First Place Overall — **HackUMBC 2024**
+- 🥇 Fetch.ai "Beyond Boundaries" Track Winner — **HackMIT 2024**
+- 🥈 Second Place Overall — **KatyYouthHacks 2024**
+- 🥇 Best Use of AI/ML Innovation (FSK Bridge Recovery) — **Bitcamp @ UMD**
+- 🥇 Best Finance Hack (Capital One) — **HackPrinceton Spring 2024**
+- 🥇 Spark of Genius Award — **Hack CEWIT 2024** @ Stony Brook
+- 🥇 Elevance Healthcare Track Winner (MediCompile) — **Hacklytics 2024**
+- 🥇 Best Digital Forensics Hack (CtrlF MyVideo) — **HoyaHacks 2024**
+- 🎓 Dean's List — **University of Maryland**
+
+**2023 & earlier**
+- 🥇 Best Hack — **CodeDay Amritsar 2023**
+- 🎉 Most Entertaining Hack ("Never Gonna Let You Sleep") — **Epoch 2023** (Hack Club)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=NSP909&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NSP909&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+📫 Always open to research collaborations, hackathon teams, and ambitious projects — reach out at **nspd@terpmail.umd.edu** or [**nsp.sh**](https://nsp.sh).
